@@ -8,7 +8,7 @@ public class Main {
   Ui ui1 = new Ui("Kara ui", 5, 400);
   Ui ui2 = new Ui("Ak ui", 4, 350);
   Ui ui3 = new Ui("Mimoza", 5, 550);
-  Ui ui4 = new Ui("Jdanka", 6, 620);
+  Ui ui4 = new Ui("Saryala ui", 6, 620);
   Ui ui5 = new Ui("Kuron ui", 5, 580);
 
   Ui[] uis = {ui1, ui2, ui3, ui4, ui5};
@@ -27,6 +27,7 @@ public class Main {
   Koi[] kois = {koi1, koi2, koi3, koi4, koi5, koi6, koi7, koi8};
   Koi[] kois1 = {koi3, koi5, koi6, koi8};
 
+
   At at1 = new At("Uragan", 4, 600);
   At at2 = new At("Tulpar", 3, 650);
   At at3 = new At("Jorgo", 4, 500);
@@ -43,6 +44,8 @@ public class Main {
 
 
   System.out.println("1chi jailoonun aty: " + jailoo1.getAty() + ", " + "Jailooun daregi: " + jailoo1.getDaregi() + ", " + "chabandyn aty: " + jailoo1.getChanbanAty());
+  System.out.println("1chi jailoodogu uilardyn sany: " + uis.length + ", koilordun sany: " + kois.length + ", attardyn sany: " + ats.length);
+
   System.out.println("U  I  L  A  R");
   for (Ui a : jailoo1.getUilar()) {
    System.out.println("Aty: " + a.getAty() + ", Jashy: " + a.getJashy() + " jashta , " + "Salmagy: " + a.getSalmagy() + " kg");
@@ -62,6 +65,7 @@ public class Main {
 
    System.out.println("2chi jailoonun aty: " + jailoo2.getAty() + ", " + "2chi jailoonun daregi: " + jailoo2.getDaregi() +
            ", " + "2chi chabandyn aty: " + jailoo2.getChanbanAty());
+  System.out.println("2chi jailoodogu uilardyn sany: " + uis1.length + ", koilordun sany: " + kois1.length + ", attardyn sany: " + ats1.length);
 
    System.out.println("U  I  L  A  R");
    for(Ui d : jailoo2.getUilar()) {
